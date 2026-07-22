@@ -1,0 +1,63 @@
+.root {
+  display: grid;
+  grid-gap: 0;
+
+  --border: 1px solid grey;
+
+  border: var(--border);
+}
+
+.contentViewport {
+  height: 400px;
+  overflow: auto;
+}
+
+.contentContainer {
+  position: relative;
+  grid-template-columns: repeat(var(--column-count), auto);
+  grid-template-rows: var(--row-height) auto;
+  width: 100%;
+  display: grid;
+  grid-gap: 0;
+}
+
+.content {
+  position: relative;
+  display: grid;
+  grid-column: span var(--column-count);
+  grid-template-rows: repeat(50, var(--row-height));
+  grid-template-columns: subgrid;
+}
+
+.cell {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.cell:not(:last-child) {
+  border-right: var(--border);
+}
+
+.cell.header {
+  font-weight: bold;
+}
+
+.row {
+  display: contents;
+}
+
+.row.headers {
+  display: grid;
+  grid-column: span var(--column-count);
+  grid-template-rows: subgrid;
+  grid-template-columns: subgrid;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+}
+
+.row:not(:last-child) .cell {
+  border-bottom: var(--border);
+}
