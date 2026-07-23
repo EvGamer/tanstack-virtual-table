@@ -7,7 +7,6 @@ declare module '@tanstack/react-table' {
   } 
 }
 
-// Register things for typesafety
 declare module '@tanstack/react-router' {
   interface Register {
     router: AppRouter;

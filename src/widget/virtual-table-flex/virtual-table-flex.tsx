@@ -7,12 +7,12 @@ import { ROW_HEIGHT } from "./constants";
 import styles from "./virtual-table-flex.module.css";
 import { createCellWidthStyle } from "./utils";
 
-export type VirtualTableFixedProps<TData extends HasId> = {
+export type VirtualTableFlexProps<TData extends HasId> = {
   data: TData[];
   columns: ColumnDef<TData>[];
 }
 
-function VirtualTableFixed<TData extends HasId>(props: VirtualTableFixedProps<TData>) {
+function VirtualTableFlex<TData extends HasId>(props: VirtualTableFlexProps<TData>) {
   const { data, columns } = props;
 
   const tableContentRef = useRef(null);
@@ -79,4 +79,4 @@ function VirtualTableFixed<TData extends HasId>(props: VirtualTableFixedProps<TD
   )
 }
 
-export default memo(VirtualTableFixed) as <TData extends HasId>(props: VirtualTableFixedProps<TData>) => ReactElement;
+export default memo(VirtualTableFlex) as <TData extends HasId>(props: VirtualTableFlexProps<TData>) => ReactElement;
