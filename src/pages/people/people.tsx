@@ -4,7 +4,7 @@ import { Person } from "./types";
 
 import style from "./people.module.css"
 import { memo } from "react";
-import VirtualTableFixed from "../../shared/ui/virtual-table-fixed/virtual-table-fixed";
+import VirtualTableFixed from "../../widget/virtual-table-fixed/virtual-table-fixed";
 
 const COLUMNS: ColumnDef<Person>[] = [
   { accessorKey: "name", header: "Name", meta: { width: 100 } },

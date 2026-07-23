@@ -1,10 +1,10 @@
 import { ColumnDef, useReactTable, getCoreRowModel, flexRender } from "@tanstack/react-table";
-import { HasId } from "../../types";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { CSSProperties, memo, ReactElement, useRef } from "react";
 import { ROW_HEIGHT } from "./constants";
 
 import styles from "./table.module.css";
+import { HasId } from "../../shared/types";
 
 export type VirtualTableGridProps<TData extends HasId> = {
   data: TData[];

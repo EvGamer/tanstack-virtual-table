@@ -1,5 +1,5 @@
 import { ColumnDef, useReactTable, getCoreRowModel, flexRender } from "@tanstack/react-table";
-import { HasId } from "../../types";
+import { HasId } from "../../shared/types";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { CSSProperties, memo, ReactElement, useRef } from "react";
 import { ROW_HEIGHT } from "./constants";
