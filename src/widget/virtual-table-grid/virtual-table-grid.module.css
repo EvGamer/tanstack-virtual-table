@@ -25,9 +25,10 @@
 .content {
   position: relative;
   display: grid;
+  height: min-content;
   grid-column: span var(--column-count);
-  grid-template-rows: repeat(50, var(--row-height));
   grid-template-columns: subgrid;
+  grid-auto-rows: var(--row-height);
 }
 
 .cell {

@@ -52,7 +52,7 @@ function VirtualTableGrid<TData extends HasId>(props: VirtualTableGridProps<TDat
               </div>
             ))}
           </div>
-          <div className={styles.content} style={{ transform: `translateY(${virtualItems[0].start}px)` }}>
+          <div className={styles.content} style={{ transform: `translateY(${virtualItems[0]?.start ?? 0}px)` }}>
             {virtualItems.map((virtualItem) => {
               const row = rows[virtualItem.index];
 
