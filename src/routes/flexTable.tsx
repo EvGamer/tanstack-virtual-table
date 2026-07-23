@@ -4,7 +4,8 @@ import VirtualTableFlex from "../widget/virtual-table-flex/virtual-table-flex";
 import { PEOPLE } from "../shared/mocks/people";
 import TablePageLayout from "../shared/ui/table-page-layout/table-page-layout";
 import { Person } from "../shared/types";
-import { createFileRoute } from "@tanstack/react-router";
+import { createRoute } from "@tanstack/react-router";
+import { rootRoute } from "./root";
 
 
 const COLUMNS: ColumnDef<Person>[] = [
@@ -25,11 +26,14 @@ const COLUMNS: ColumnDef<Person>[] = [
   }
 ]
 
-export const Route = createFileRoute('/')({
-  component: IndexPage,
+//@ts-ignore
+export const flexTableRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/",
+  component: FlexTablePage,
 });
 
-function IndexPage() {
+function FlexTablePage() {
   return (
     <TablePageLayout title="Flex table">
       <VirtualTableFlex<Person> columns={COLUMNS} data={PEOPLE} />
