@@ -2,9 +2,10 @@
   display: grid;
   grid-gap: 0;
 
-  --border: 1px solid grey;
+  --border: 1px solid var(--stroke-color);
 
   border: var(--border);
+  background-color: var(--table-bg-color);
 }
 
 .contentViewport {
@@ -32,6 +33,8 @@
 .cell {
   box-sizing: border-box;
   padding: 5px;
+
+  background-color: var(--table-bg-color);
 }
 
 .cell:not(:last-child) {

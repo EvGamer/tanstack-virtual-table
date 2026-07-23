@@ -1,8 +1,10 @@
 import { createRouter, RouterProvider } from '@tanstack/react-router'
 import { rootRoute } from './routes/root'
 import { flexTableRoute } from './routes/flexTable'
+import { gridTableRoute } from './routes/gridTable'
 
 export const routeTree = rootRoute.addChildren([
+  gridTableRoute,
   flexTableRoute,
 ])
 

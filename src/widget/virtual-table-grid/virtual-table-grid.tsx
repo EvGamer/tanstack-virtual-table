@@ -3,7 +3,7 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { CSSProperties, memo, ReactElement, useRef } from "react";
 import { ROW_HEIGHT } from "./constants";
 
-import styles from "./table.module.css";
+import styles from "./virtual-table-grid.module.css";
 import { HasId } from "../../shared/types";
 
 export type VirtualTableGridProps<TData extends HasId> = {

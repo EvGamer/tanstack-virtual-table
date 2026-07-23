@@ -1,7 +1,9 @@
 .root {
   width: 100%;
   margin-top: 50px;
+  display: flex;
 }
+
 
 .header {
   font-size: 24px;
@@ -9,10 +11,29 @@
 }
 
 .contentContainer {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.contentContainer aside {
+  padding: 15px;
+  width: 200px;
 }
 
 .content {
   width: 800px;
+}
+
+.link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.link, .link:visited {
+  color: var(--text-color-primary);
+}
+
+.link:hover, .link:global(.active) {
+  color: var(--text-color-primary-hover);
 }
