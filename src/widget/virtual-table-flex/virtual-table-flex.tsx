@@ -4,7 +4,7 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { CSSProperties, memo, ReactElement, useRef } from "react";
 import { ROW_HEIGHT } from "./constants";
 
-import styles from "./virtual-table-fixed.module.css";
+import styles from "./virtual-table-flex.module.css";
 import { createCellWidthStyle } from "./utils";
 
 export type VirtualTableFixedProps<TData extends HasId> = {

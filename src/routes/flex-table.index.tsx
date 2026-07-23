@@ -1,10 +1,12 @@
 import { ColumnDef } from "@tanstack/react-table";
 
 import { memo } from "react";
-import VirtualTableFixed from "../../widget/virtual-table-flex/virtual-table-flex";
-import { PEOPLE } from "../../shared/mocks/people";
-import TablePageLayout from "../../shared/ui/table-page-layout/table-page-layout";
-import { Person } from "../../shared/types";
+import VirtualTableFlex from "../widget/virtual-table-flex/virtual-table-flex";
+import { PEOPLE } from "../shared/mocks/people";
+import TablePageLayout from "../shared/ui/table-page-layout/table-page-layout";
+import { Person } from "../shared/types";
+import { createFileRoute } from "@tanstack/react-router";
+
 
 const COLUMNS: ColumnDef<Person>[] = [
   { accessorKey: "name", header: "Name", meta: { width: 100 } },
@@ -24,12 +26,16 @@ const COLUMNS: ColumnDef<Person>[] = [
   }
 ]
 
-function PeoplePage() {
+function TableFixedPage() {
   return (
     <TablePageLayout title="Flex table">
-      <VirtualTableFixed<Person> columns={COLUMNS} data={PEOPLE} />
+      <VirtualTableFlex<Person> columns={COLUMNS} data={PEOPLE} />
     </TablePageLayout>
   )
 }
 
-export default memo(PeoplePage);
+export const TableFixedPageMemo = memo(TableFixedPage);
+
+export const Route = createFileRoute("/flex-table/")({
+  component: TableFixedPageMemo,
+});

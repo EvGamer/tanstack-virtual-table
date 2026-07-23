@@ -1,8 +1,8 @@
-import PeoplePage from './pages/table-fixed-page/table-fixed-page';
+import TableFixedPage from './routes/table-fixed-page';
 
 function App() {
   return (
-    <PeoplePage />
+    <TableFixedPage />
   );
 }
 
