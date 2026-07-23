@@ -32,7 +32,7 @@ export const gridTableRoute = createRoute({
 
 function GridTablePage() {
   return (
-    <TablePageLayout title="Flex table">
+    <TablePageLayout title="Grid table">
       <VirtualTableGrid<Person> columns={COLUMNS} data={PEOPLE} />
     </TablePageLayout>
   )
