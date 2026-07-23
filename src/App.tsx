@@ -1,4 +1,4 @@
-import PeoplePage from './pages/people/people';
+import PeoplePage from './pages/table-fixed-page/table-fixed-page';
 
 function App() {
   return (

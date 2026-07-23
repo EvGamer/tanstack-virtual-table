@@ -1,10 +1,10 @@
 import { ColumnDef } from "@tanstack/react-table";
-import { PEOPLE } from "./mocks/people";
-import { Person } from "./types";
 
-import style from "./people.module.css"
 import { memo } from "react";
 import VirtualTableFixed from "../../widget/virtual-table-fixed/virtual-table-fixed";
+import { PEOPLE } from "../../shared/mocks/people";
+import TablePageLayout from "../../shared/ui/table-page-layout/table-page-layout";
+import { Person } from "../../shared/types";
 
 const COLUMNS: ColumnDef<Person>[] = [
   { accessorKey: "name", header: "Name", meta: { width: 100 } },
@@ -26,14 +26,9 @@ const COLUMNS: ColumnDef<Person>[] = [
 
 function PeoplePage() {
   return (
-    <div className={style.root}>
-      <h1 className={style.header}>People</h1>
-      <div className={style.contentContainer}>
-        <div className={style.content}>
-          <VirtualTableFixed<Person> columns={COLUMNS} data={PEOPLE} />
-        </div>
-      </div>
-    </div>
+    <TablePageLayout title="Flex table">
+      <VirtualTableFixed<Person> columns={COLUMNS} data={PEOPLE} />
+    </TablePageLayout>
   )
 }
 
