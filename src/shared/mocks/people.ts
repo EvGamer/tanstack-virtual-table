@@ -8,7 +8,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "53",
+    "age": 53,
     "occupation": "Driver"
   },
   {
@@ -18,7 +18,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "21",
+    "age": 21,
     "occupation": "Architect"
   },
   {
@@ -28,7 +28,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "46",
+    "age": 46,
     "occupation": "Software Engineer"
   },
   {
@@ -38,7 +38,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "44",
+    "age": 44,
     "occupation": "Accountant"
   },
   {
@@ -48,7 +48,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "53",
+    "age": 53,
     "occupation": "Software Engineer"
   },
   {
@@ -58,7 +58,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "32",
+    "age": 32,
     "occupation": "Analyst"
   },
   {
@@ -68,7 +68,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "39",
+    "age": 39,
     "occupation": "Doctor"
   },
   {
@@ -78,7 +78,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "37",
+    "age": 37,
     "occupation": "Architect"
   },
   {
@@ -88,7 +88,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "47",
+    "age": 47,
     "occupation": "Teacher"
   },
   {
@@ -98,7 +98,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "58",
+    "age": 58,
     "occupation": "Accountant"
   },
   {
@@ -108,7 +108,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "24",
+    "age": 24,
     "occupation": "Analyst"
   },
   {
@@ -118,7 +118,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "32",
+    "age": 32,
     "occupation": "Chef"
   },
   {
@@ -128,7 +128,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "30",
+    "age": 30,
     "occupation": "Software Engineer"
   },
   {
@@ -138,7 +138,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "55",
+    "age": 55,
     "occupation": "Analyst"
   },
   {
@@ -148,7 +148,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "42",
+    "age": 42,
     "occupation": "Accountant"
   },
   {
@@ -158,7 +158,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "54",
+    "age": 54,
     "occupation": "Chef"
   },
   {
@@ -168,7 +168,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "55",
+    "age": 55,
     "occupation": "Teacher"
   },
   {
@@ -178,7 +178,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "64",
+    "age": 64,
     "occupation": "Manager"
   },
   {
@@ -188,7 +188,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "38",
+    "age": 38,
     "occupation": "Architect"
   },
   {
@@ -198,7 +198,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "21",
+    "age": 21,
     "occupation": "Chef"
   },
   {
@@ -208,7 +208,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "37",
+    "age": 37,
     "occupation": "Designer"
   },
   {
@@ -218,7 +218,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "22",
+    "age": 22,
     "occupation": "Analyst"
   },
   {
@@ -228,7 +228,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "56",
+    "age": 56,
     "occupation": "Software Engineer"
   },
   {
@@ -238,7 +238,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "43",
+    "age": 43,
     "occupation": "Teacher"
   },
   {
@@ -248,7 +248,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "46",
+    "age": 46,
     "occupation": "Chef"
   },
   {
@@ -258,7 +258,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "34",
+    "age": 34,
     "occupation": "Accountant"
   },
   {
@@ -268,7 +268,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "49",
+    "age": 49,
     "occupation": "Architect"
   },
   {
@@ -278,7 +278,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexeevich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "61",
+    "age": 61,
     "occupation": "Designer"
   },
   {
@@ -288,7 +288,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "32",
+    "age": 32,
     "occupation": "Teacher"
   },
   {
@@ -298,7 +298,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "21",
+    "age": 21,
     "occupation": "Accountant"
   },
   {
@@ -308,7 +308,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "48",
+    "age": 48,
     "occupation": "Analyst"
   },
   {
@@ -318,7 +318,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "59",
+    "age": 59,
     "occupation": "Software Engineer"
   },
   {
@@ -328,7 +328,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "47",
+    "age": 47,
     "occupation": "Chef"
   },
   {
@@ -338,7 +338,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "38",
+    "age": 38,
     "occupation": "Software Engineer"
   },
   {
@@ -348,7 +348,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "65",
+    "age": 65,
     "occupation": "Driver"
   },
   {
@@ -358,7 +358,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "62",
+    "age": 62,
     "occupation": "Software Engineer"
   },
   {
@@ -368,7 +368,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "49",
+    "age": 49,
     "occupation": "Manager"
   },
   {
@@ -378,7 +378,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "48",
+    "age": 48,
     "occupation": "Driver"
   },
   {
@@ -388,7 +388,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "45",
+    "age": 45,
     "occupation": "Manager"
   },
   {
@@ -398,7 +398,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "53",
+    "age": 53,
     "occupation": "Designer"
   },
   {
@@ -408,7 +408,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "36",
+    "age": 36,
     "occupation": "Driver"
   },
   {
@@ -418,7 +418,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "46",
+    "age": 46,
     "occupation": "Teacher"
   },
   {
@@ -428,7 +428,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "36",
+    "age": 36,
     "occupation": "Analyst"
   },
   {
@@ -438,7 +438,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "61",
+    "age": 61,
     "occupation": "Designer"
   },
   {
@@ -448,7 +448,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "21",
+    "age": 21,
     "occupation": "Designer"
   },
   {
@@ -458,7 +458,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Artemovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "65",
+    "age": 65,
     "occupation": "Manager"
   },
   {
@@ -468,7 +468,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "36",
+    "age": 36,
     "occupation": "Driver"
   },
   {
@@ -478,7 +478,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "29",
+    "age": 29,
     "occupation": "Doctor"
   },
   {
@@ -487,7 +487,7 @@ export const PEOPLE: Person[] = [
     "surname": "Sokolova",
     "patronim": "Ivanovna",
     "isMale": false,
-    "maritalStatus": "Divorced","age": "62","occupation": "Manager"
+    "maritalStatus": "Divorced","age": 62,"occupation": "Manager"
   },
   {
     "id": 50,
@@ -496,7 +496,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "58",
+    "age": 58,
     "occupation": "Manager"
   },
   {
@@ -506,7 +506,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "19",
+    "age": 19,
     "occupation": "Software Engineer"
   },
   {
@@ -516,7 +516,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "29",
+    "age": 29,
     "occupation": "Designer"
   },
   {
@@ -526,7 +526,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "46",
+    "age": 46,
     "occupation": "Chef"
   },
   {
@@ -536,7 +536,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "32",
+    "age": 32,
     "occupation": "Driver"
   },
   {
@@ -546,7 +546,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "36",
+    "age": 36,
     "occupation": "Accountant"
   },
   {
@@ -556,7 +556,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "38",
+    "age": 38,
     "occupation": "Software Engineer"
   },
   {
@@ -566,7 +566,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "61",
+    "age": 61,
     "occupation": "Analyst"
   },
   {
@@ -576,7 +576,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "59",
+    "age": 59,
     "occupation": "Designer"
   },
   {
@@ -586,7 +586,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "28",
+    "age": 28,
     "occupation": "Accountant"
   },
   {
@@ -596,7 +596,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "25",
+    "age": 25,
     "occupation": "Accountant"
   },
   {
@@ -606,7 +606,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "38",
+    "age": 38,
     "occupation": "Software Engineer"
   },
   {
@@ -616,7 +616,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "25",
+    "age": 25,
     "occupation": "Software Engineer"
   },
   {
@@ -626,7 +626,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "42",
+    "age": 42,
     "occupation": "Chef"
   },
   {
@@ -636,7 +636,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "51",
+    "age": 51,
     "occupation": "Software Engineer"
   },
   {
@@ -646,7 +646,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "40",
+    "age": 40,
     "occupation": "Analyst"
   },
   {
@@ -656,7 +656,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "55",
+    "age": 55,
     "occupation": "Chef"
   },
   {
@@ -666,7 +666,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexeevna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "57",
+    "age": 57,
     "occupation": "Manager"
   },
   {
@@ -676,7 +676,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexeevich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "46",
+    "age": 46,
     "occupation": "Driver"
   },
   {
@@ -686,7 +686,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "34",
+    "age": 34,
     "occupation": "Architect"
   },
   {
@@ -696,7 +696,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexeevich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "49",
+    "age": 49,
     "occupation": "Software Engineer"
   },
   {
@@ -706,7 +706,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Artemovich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "18",
+    "age": 18,
     "occupation": "Manager"
   },
   {
@@ -716,7 +716,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "64",
+    "age": 64,
     "occupation": "Architect"
   },
   {
@@ -726,7 +726,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Ivanovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "55",
+    "age": 55,
     "occupation": "Doctor"
   },
   {
@@ -736,7 +736,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Artemovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "64",
+    "age": 64,
     "occupation": "Teacher"
   },
   {
@@ -746,7 +746,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "38",
+    "age": 38,
     "occupation": "Analyst"
   },
   {
@@ -756,7 +756,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "55",
+    "age": 55,
     "occupation": "Chef"
   },
   {
@@ -766,7 +766,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Artemovich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "19",
+    "age": 19,
     "occupation": "Manager"
   },
   {
@@ -776,7 +776,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Artemovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "62",
+    "age": 62,
     "occupation": "Chef"
   },
   {
@@ -786,7 +786,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "37",
+    "age": 37,
     "occupation": "Teacher"
   },
   {
@@ -796,7 +796,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "64",
+    "age": 64,
     "occupation": "Driver"
   },
   {
@@ -806,7 +806,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexeevich",
     "isMale": true,
     "maritalStatus": "Widowed",
-    "age": "41",
+    "age": 41,
     "occupation": "Teacher"
   },
   {
@@ -816,7 +816,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "43",
+    "age": 43,
     "occupation": "Accountant"
   },
   {
@@ -826,7 +826,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Nikolaevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "56",
+    "age": 56,
     "occupation": "Doctor"
   },
   {
@@ -836,7 +836,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "48",
+    "age": 48,
     "occupation": "Manager"
   },
   {
@@ -846,7 +846,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "65",
+    "age": 65,
     "occupation": "Analyst"
   },
   {
@@ -856,7 +856,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "34",
+    "age": 34,
     "occupation": "Manager"
   },
   {
@@ -866,7 +866,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "55",
+    "age": 55,
     "occupation": "Designer"
   },
   {
@@ -876,7 +876,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexandrovna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "32",
+    "age": 32,
     "occupation": "Architect"
   },
   {
@@ -886,7 +886,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "61",
+    "age": 61,
     "occupation": "Architect"
   },
   {
@@ -896,7 +896,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Sergeevna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "63",
+    "age": 63,
     "occupation": "Manager"
   },
   {
@@ -906,7 +906,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "56",
+    "age": 56,
     "occupation": "Chef"
   },
   {
@@ -916,7 +916,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "29",
+    "age": 29,
     "occupation": "Driver"
   },
   {
@@ -926,7 +926,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovna",
     "isMale": false,
     "maritalStatus": "Divorced",
-    "age": "23",
+    "age": 23,
     "occupation": "Software Engineer"
   },
   {
@@ -936,7 +936,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Artemovna",
     "isMale": false,
     "maritalStatus": "Widowed",
-    "age": "20",
+    "age": 20,
     "occupation": "Chef"
   },
   {
@@ -946,7 +946,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Mikhailovna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "46",
+    "age": 46,
     "occupation": "Accountant"
   },
   {
@@ -956,7 +956,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievich",
     "isMale": true,
     "maritalStatus": "Single",
-    "age": "36",
+    "age": 36,
     "occupation": "Chef"
   },
   {
@@ -966,7 +966,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Alexeevich",
     "isMale": true,
     "maritalStatus": "Divorced",
-    "age": "56",
+    "age": 56,
     "occupation": "Teacher"
   },
   {
@@ -976,7 +976,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Vladimirovna",
     "isMale": false,
     "maritalStatus": "Married",
-    "age": "43",
+    "age": 43,
     "occupation": "Doctor"
   },
   {
@@ -986,7 +986,7 @@ export const PEOPLE: Person[] = [
     "patronim": "Dmitrievna",
     "isMale": false,
     "maritalStatus": "Single",
-    "age": "61",
+    "age": 61,
     "occupation": "Accountant"
   },
   {
@@ -996,6 +996,6 @@ export const PEOPLE: Person[] = [
     "patronim": "Andreevich",
     "isMale": true,
     "maritalStatus": "Married",
-    "age": "51",
+    "age": 51,
     "occupation": "Doctor"
   }];

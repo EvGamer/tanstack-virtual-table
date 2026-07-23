@@ -7,6 +7,6 @@ export type Person = {
   patronim: string;
   isMale: boolean;
   maritalStatus: string;
-  age: string;
+  age: number;
   occupation: string;
 }
