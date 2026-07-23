@@ -15,7 +15,7 @@ export type VirtualTableFlexProps<TData extends HasId> = {
 function VirtualTableFlex<TData extends HasId>(props: VirtualTableFlexProps<TData>) {
   const { data, columns } = props;
 
-  const tableContentRef = useRef(null);
+  const tableContentRef = useRef<HTMLDivElement | null>(null);
 
   const table = useReactTable<TData>({ 
     data,

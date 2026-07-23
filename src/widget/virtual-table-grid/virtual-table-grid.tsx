@@ -14,7 +14,7 @@ export type VirtualTableGridProps<TData extends HasId> = {
 function VirtualTableGrid<TData extends HasId>(props: VirtualTableGridProps<TData>) {
   const { data, columns } = props;
 
-  const tableContentRef = useRef(null);
+  const tableContentRef = useRef<HTMLDivElement | null>(null);
 
   const table = useReactTable<TData>({ 
     data,
