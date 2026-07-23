@@ -6,12 +6,12 @@ import { ROW_HEIGHT } from "./constants";
 
 import styles from "./table.module.css";
 
-export type TableProps<TData extends HasId> = {
+export type VirtualTableGridProps<TData extends HasId> = {
   data: TData[];
   columns: ColumnDef<TData>[];
 }
 
-function Table<TData extends HasId>(props: TableProps<TData>) {
+function VirtualTableGrid<TData extends HasId>(props: VirtualTableGridProps<TData>) {
   const { data, columns } = props;
 
   const tableContentRef = useRef(null);
@@ -77,4 +77,4 @@ function Table<TData extends HasId>(props: TableProps<TData>) {
   )
 }
 
-export default memo(Table) as <TData extends HasId>(props: TableProps<TData>) => ReactElement;
+export default memo(VirtualTableGrid) as <TData extends HasId>(props: VirtualTableGridProps<TData>) => ReactElement;
