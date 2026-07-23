@@ -4,6 +4,11 @@
   --text-color-primary: #BBBBBB;
   --text-color-secondary: #777777;
   --stroke-color: #3C3F41;
+
+  --scrollbar-width: 15px;
+
+  scrollbar-width: var(--scrollbar-width);
+  scrollbar-color: var(--stroke-color) var(--table-bg-color);
 }
 
 body {

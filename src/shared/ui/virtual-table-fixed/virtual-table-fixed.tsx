@@ -46,6 +46,7 @@ function VirtualTableFixed<TData extends HasId>(props: VirtualTableFixedProps<TD
             {flexRender(header.column.columnDef.header, header.getContext())}
           </div>
         ))}
+        <div className={`${styles.cell} ${styles.header} ${styles.scrollbarOffset}`} />
       </div>
       <div className={styles.contentViewport} ref={tableContentRef}>
         <div
@@ -62,7 +63,7 @@ function VirtualTableFixed<TData extends HasId>(props: VirtualTableFixedProps<TD
               <div 
                 className={styles.row}
                 key={row.id}
-                style={{ transform: `translateY(${virtualItem.start})`}}
+                style={{ transform: `translateY(${virtualItem.start}px)`}}
               >
                 {row.getVisibleCells().map((cell) => (
                   <div className={styles.cell} key={cell.id} style={createCellWidthStyle(cell.column.columnDef.meta?.width)}>

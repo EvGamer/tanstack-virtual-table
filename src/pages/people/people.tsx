@@ -10,12 +10,12 @@ const COLUMNS: ColumnDef<Person>[] = [
   { accessorKey: "name", header: "Name", meta: { width: 100 } },
   { accessorKey: "surname", header: "Surname", meta: { width: 100 } },
   { accessorKey: "patronim", header: "Patronim", meta: { width: 100 } },
-  { accessorKey: "age", header: "Age", meta: { width: 100 } },
+  { accessorKey: "age", header: "Age", meta: { width: 30 } },
   { 
     accessorKey: "isMale",
     header: "Sex",
     cell: (props) => props.getValue() ? "Male" : "Female",
-    meta: { width: 30 }
+    meta: { width: 50 }
   },
   {
     accessorKey: "maritalStatus",

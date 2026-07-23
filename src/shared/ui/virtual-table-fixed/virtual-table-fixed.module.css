@@ -5,11 +5,13 @@
   --border: 1px solid var(--stroke-color);
 
   border: var(--border);
+  background: var(--table-bg-color);
 }
 
 .contentViewport {
   height: 400px;
-  overflow: auto;
+  overflow-y: scroll;
+
 }
 
 .contentContainer {
@@ -26,17 +28,16 @@
 }
 
 .cell {
-  display: block;
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   padding: 5px;
   background-color: var(--table-bg-color);
-  height: var(--row-height);
-  min-height: var(--row-height);
-  max-height: var(--row-height);
   overflow: hidden;
+  height: 100%;
 }
 
-.cell:not(:last-child) {
+.cell:not(.header:last-child) {
   border-right: var(--border);
 }
 
@@ -44,10 +45,18 @@
   font-weight: bold;
 }
 
+.scrollbarOffset {
+  width: var(--scrollbar-width);
+}
+
 .row {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
+  height: var(--row-height);
+  min-height: var(--row-height);
+  max-height: var(--row-height);
 }
 
 .row:not(.headers) {
