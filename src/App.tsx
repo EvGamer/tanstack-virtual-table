@@ -1,9 +1,22 @@
-import TableFixedPage from './routes/flex-table.index';
+import { createRouter, RouterProvider } from '@tanstack/react-router'
 
-function App() {
-  return (
-    <TableFixedPage />
-  );
+import { routeTree } from './routeTree.gen'
+
+// Set up a Router instance
+const router = createRouter({
+  routeTree,
+  defaultPreload: 'intent',
+  scrollRestoration: true,
+})
+
+// Register things for typesafety
+declare module '@tanstack/react-router' {
+  interface Register {
+    router: typeof router
+  }
+}
+const App = () => {
+  return <RouterProvider router={router} />
 }
 
-export default App;
+export default App

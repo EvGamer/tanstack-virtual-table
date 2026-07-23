@@ -1,6 +1,5 @@
 import { ColumnDef } from "@tanstack/react-table";
 
-import { memo } from "react";
 import VirtualTableFlex from "../widget/virtual-table-flex/virtual-table-flex";
 import { PEOPLE } from "../shared/mocks/people";
 import TablePageLayout from "../shared/ui/table-page-layout/table-page-layout";
@@ -26,16 +25,14 @@ const COLUMNS: ColumnDef<Person>[] = [
   }
 ]
 
-function TableFixedPage() {
+export const Route = createFileRoute('/')({
+  component: IndexPage,
+});
+
+function IndexPage() {
   return (
     <TablePageLayout title="Flex table">
       <VirtualTableFlex<Person> columns={COLUMNS} data={PEOPLE} />
     </TablePageLayout>
   )
 }
-
-export const TableFixedPageMemo = memo(TableFixedPage);
-
-export const Route = createFileRoute("/flex-table/")({
-  component: TableFixedPageMemo,
-});
