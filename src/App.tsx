@@ -1,4 +1,4 @@
-import TableFixedPage from './routes/table-fixed-page';
+import TableFixedPage from './routes/flex-table.index';
 
 function App() {
   return (
