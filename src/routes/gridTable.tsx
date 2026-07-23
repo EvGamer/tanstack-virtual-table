@@ -24,7 +24,6 @@ const COLUMNS: ColumnDef<Person>[] = [
   }
 ]
 
-//@ts-ignore
 export const gridTableRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/grid-table",

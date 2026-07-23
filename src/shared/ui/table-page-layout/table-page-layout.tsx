@@ -11,10 +11,8 @@ function TablePageLayout({ children, title }: TablePageLayoutProps) {
     <div className={styles.root}>
       <div className={styles.contentContainer}>
         <aside>
-            {/* @ts-ignore */}
-            <Link to="/" className={styles.link}>Flex table</Link> 
-            {/* @ts-ignore */}
-            <Link to="/grid-table" className={styles.link}>Grid table</Link>
+          <Link to="/" className={styles.link}>Flex table</Link> 
+          <Link to="/grid-table" className={styles.link}>Grid table</Link>
         </aside>
         <div className={styles.content}>
           <h1 className={styles.header}>{title}</h1>

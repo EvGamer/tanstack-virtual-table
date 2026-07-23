@@ -26,7 +26,6 @@ const COLUMNS: ColumnDef<Person>[] = [
   }
 ]
 
-//@ts-ignore
 export const flexTableRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/",
